@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    char country [1];
+    char color [1];
+    char favcountry[1];
+
+
+
+    printf("Enter the name of a country.");
+    scanf("%s", &country);
+    printf("Enter your favourite color.");
+    scanf("%s", &color);
+    printf("Enter your favourite country name.");
+    scanf("%s", &favcountry);
+
+
+
+    printf("There is a %s\n ", country);
+    printf("The color of house is %s\n", color);
+    printf("You live in that %s\n", favcountry);
+    return 0;
+}
